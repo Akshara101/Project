@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gumtree - Property Listings</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="property.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    
+
+    <header>
+        
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Gumtree</title>
+            <link rel="stylesheet" href="project.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        </head>
+        <body>
+            <header>
+                <div class="header-top">
+                    <div class="logo">Gumtree</div>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search product">
+                        <button class="search-icon"><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="auth-buttons">
+                        <button class="login-btn">Log in</button>
+                        <button class="signin-btn">Sign in</button>
+                    </div>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li class="nav-item">
+                            Cars & vehicle
+                            <div class="dropdown">
+                                <a href="#">Car</a>
+                                <a href="#">Motorbikes & Scooters</a>
+                                <a href="#">Vans</a>
+                                <a href="#">Campervans & Motorhomes</a>
+                                <a href="#">Caravans</a>
+                                <a href="#">Trucks</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">For sale</li>
+                        <li class="nav-item">Property</li>
+                        <li class="nav-item">Job</li>
+                        <li class="nav-item">Services</li>
+                        <li class="nav-item">Community</li>
+                        <li class="nav-item">Pets</li>
+                    </ul>
+                </nav>
+        
+    </header>
+
+    <main class="property-page">
+        <div class="property-header">
+            <h1>Property / For sale</h1>
+            <button class="filter-btn" onclick="toggleFilter()">
+                <i class="fas fa-filter"></i> Filter
+            </button>
+        </div>
+
+        <div class="property-grid">
+            <!-- Property Card Template -->
+            <div class="property-card">
+                <div class="property-image">
+                    <img src="https://images.unsplash.com/photo-1518780664697-55e3ad937233" alt="House">
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="property-info">
+                    <p class="price">$645,000</p>
+                    <h3>3 bedroom house in 291 The Highway, London, E1W 3BB</h3>
+                    <div class="property-meta">
+                        <span>Gateshead</span>
+                        <span>•</span>
+                        <span>3d ago</span>
+                    </div>
+                </div>
+            </div>
+            <!-- More property cards... -->
+            <div class="property-card">
+                <div class="property-image">
+                    <img src="House 1.png" alt="House">
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="property-info">
+                    <p class="price">$645,000</p>
+                    <h3>3 bedroom house in 291 The Highway, London, E1W 3BB</h3>
+                    <div class="property-meta">
+                        <span>Gateshead</span>
+                        <span>•</span>
+                        <span>3d ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="property-card">
+                <div class="property-image">
+                    <img src="House 2.png" alt="House">
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="property-info">
+                    <p class="price">$645,000</p>
+                    <h3>3 bedroom house in 291 The Highway, London, E1W 3BB</h3>
+                    <div class="property-meta">
+                        <span>Gateshead</span>
+                        <span>•</span>
+                        <span>3d ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="property-card">
+                <div class="property-image">
+                    <img src="House 3.png" alt="House">
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="property-info">
+                    <p class="price">$645,000</p>
+                    <h3>3 bedroom house in 291 The Highway, London, E1W 3BB</h3>
+                    <div class="property-meta">
+                        <span>Gateshead</span>
+                        <span>•</span>
+                        <span>3d ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="property-card">
+                <div class="property-image">
+                    <img src="House 4.png" alt="House">
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="property-info">
+                    <p class="price">$645,000</p>
+                    <h3>3 bedroom house in 291 The Highway, London, E1W 3BB</h3>
+                    <div class="property-meta">
+                        <span>Gateshead</span>
+                        <span>•</span>
+                        <span>3d ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="property-card">
+                <div class="property-image">
+                    <img src="https://images.unsplash.com/photo-1518780664697-55e3ad937233" alt="House">
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="property-info">
+                    <p class="price">$645,000</p>
+                    <h3>3 bedroom house in 291 The Highway, London, E1W 3BB</h3>
+                    <div class="property-meta">
+                        <span>Gateshead</span>
+                        <span>•</span>
+                        <span>3d ago</span>
+                    </div>
+                </div>
+            </div>
+            <!-- More property cards... -->
+            <div class="property-card">
+                <div class="property-image">
+                    <img src="House 1.png" alt="House">
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="property-info">
+                    <p class="price">$645,000</p>
+                    <h3>3 bedroom house in 291 The Highway, London, E1W 3BB</h3>
+                    <div class="property-meta">
+                        <span>Gateshead</span>
+                        <span>•</span>
+                        <span>3d ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="property-card">
+                <div class="property-image">
+                    <img src="House 2.png" alt="House">
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="property-info">
+                    <p class="price">$645,000</p>
+                    <h3>3 bedroom house in 291 The Highway, London, E1W 3BB</h3>
+                    <div class="property-meta">
+                        <span>Gateshead</span>
+                        <span>•</span>
+                        <span>3d ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="property-card">
+                <div class="property-image">
+                    <img src="House 3.png" alt="House">
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="property-info">
+                    <p class="price">$645,000</p>
+                    <h3>3 bedroom house in 291 The Highway, London, E1W 3BB</h3>
+                    <div class="property-meta">
+                        <span>Gateshead</span>
+                        <span>•</span>
+                        <span>3d ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="property-card">
+                <div class="property-image">
+                    <img src="House 4.png" alt="House">
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="property-info">
+                    <p class="price">$645,000</p>
+                    <h3>3 bedroom house in 291 The Highway, London, E1W 3BB</h3>
+                    <div class="property-meta">
+                        <span>Gateshead</span>
+                        <span>•</span>
+                        <span>3d ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="property-card">
+                <div class="property-image">
+                    <img src="https://images.unsplash.com/photo-1518780664697-55e3ad937233" alt="House">
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="property-info">
+                    <p class="price">$645,000</p>
+                    <h3>3 bedroom house in 291 The Highway, London, E1W 3BB</h3>
+                    <div class="property-meta">
+                        <span>Gateshead</span>
+                        <span>•</span>
+                        <span>3d ago</span>
+                    </div>
+                </div>
+            </div>
+            <!-- More property cards... -->
+            <div class="property-card">
+                <div class="property-image">
+                    <img src="House 1.png" alt="House">
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="property-info">
+                    <p class="price">$645,000</p>
+                    <h3>3 bedroom house in 291 The Highway, London, E1W 3BB</h3>
+                    <div class="property-meta">
+                        <span>Gateshead</span>
+                        <span>•</span>
+                        <span>3d ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="property-card">
+                <div class="property-image">
+                    <img src="House 2.png" alt="House">
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="property-info">
+                    <p class="price">$645,000</p>
+                    <h3>3 bedroom house in 291 The Highway, London, E1W 3BB</h3>
+                    <div class="property-meta">
+                        <span>Gateshead</span>
+                        <span>•</span>
+                        <span>3d ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="property-card">
+                <div class="property-image">
+                    <img src="House 3.png" alt="House">
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="property-info">
+                    <p class="price">$645,000</p>
+                    <h3>3 bedroom house in 291 The Highway, London, E1W 3BB</h3>
+                    <div class="property-meta">
+                        <span>Gateshead</span>
+                        <span>•</span>
+                        <span>3d ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="property-card">
+                <div class="property-image">
+                    <img src="House 4.png" alt="House">
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="property-info">
+                    <p class="price">$645,000</p>
+                    <h3>3 bedroom house in 291 The Highway, London, E1W 3BB</h3>
+                    <div class="property-meta">
+                        <span>Gateshead</span>
+                        <span>•</span>
+                        <span>3d ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="property-card">
+                <div class="property-image">
+                    <img src="https://images.unsplash.com/photo-1518780664697-55e3ad937233" alt="House">
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="property-info">
+                    <p class="price">$645,000</p>
+                    <h3>3 bedroom house in 291 The Highway, London, E1W 3BB</h3>
+                    <div class="property-meta">
+                        <span>Gateshead</span>
+                        <span>•</span>
+                        <span>3d ago</span>
+                    </div>
+                </div>
+            </div>
+            <!-- More property cards... -->
+            <div class="property-card">
+                <div class="property-image">
+                    <img src="House 1.png" alt="House">
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="property-info">
+                    <p class="price">$645,000</p>
+                    <h3>3 bedroom house in 291 The Highway, London, E1W 3BB</h3>
+                    <div class="property-meta">
+                        <span>Gateshead</span>
+                        <span>•</span>
+                        <span>3d ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="property-card">
+                <div class="property-image">
+                    <img src="House 2.png" alt="House">
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="property-info">
+                    <p class="price">$645,000</p>
+                    <h3>3 bedroom house in 291 The Highway, London, E1W 3BB</h3>
+                    <div class="property-meta">
+                        <span>Gateshead</span>
+                        <span>•</span>
+                        <span>3d ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="property-card">
+                <div class="property-image">
+                    <img src="House 3.png" alt="House">
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="property-info">
+                    <p class="price">$645,000</p>
+                    <h3>3 bedroom house in 291 The Highway, London, E1W 3BB</h3>
+                    <div class="property-meta">
+                        <span>Gateshead</span>
+                        <span>•</span>
+                        <span>3d ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="property-card">
+                <div class="property-image">
+                    <img src="House 4.png" alt="House">
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="property-info">
+                    <p class="price">$645,000</p>
+                    <h3>3 bedroom house in 291 The Highway, London, E1W 3BB</h3>
+                    <div class="property-meta">
+                        <span>Gateshead</span>
+                        <span>•</span>
+                        <span>3d ago</span>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+
+        <!-- Filter Modal -->
+        <div id="filterModal" class="filter-modal">
+            <div class="filter-content">
+                <div class="filter-header">
+                    <h2>Filter</h2>
+                    <button onclick="toggleFilter()" class="close-btn">&times;</button>
+                </div>
+                
+                <div class="filter-section">
+                    <h3>Location</h3>
+                    <div class="location-input">
+                        <input type="text" placeholder="Change location">
+                        <select>
+                            <option>Choose distance</option>
+                            <option>Within 1 mile</option>
+                            <option>Within 3 miles</option>
+                            <option>Within 5 miles</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <h3>Category</h3>
+                    <div class="category-buttons">
+                        <button class="active">For sale</button>
+                        <button>For rent</button>
+                        <button>For sale</button>
+                        <button>For sale</button>
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <h3>Price</h3>
+                    <div class="price-range">
+                        <input type="range" min="0" max="1000000" value="500000" class="price-slider">
+                        <div class="price-inputs">
+                            <input type="number" value="5,000" min="0">
+                            <input type="number" value="100,000" max="1000000">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <h3>Property type</h3>
+                    <div class="property-types">
+                        <button class="active">Any</button>
+                        <button>Flat</button>
+                        <button>House</button>
+                        <button>Bungalow</button>
+                        <button>River side</button>
+                    </div>
+                </div>
+
+                <div class="filter-actions">
+                    <button class="clear-btn">Clear filter</button>
+                    <button class="apply-btn">Show 112 result</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer remains the same -->
+    <footer>
+        <!-- Your existing footer code -->
+    </footer>
+<footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h2 class="footer-logo">Gumtree</h2>
+                <div class="social-icons">
+                    <a href="#">📘</a>
+                    <a href="#">📱</a>
+                    <a href="#">🐦</a>
+                    <a href="#">📸</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Collections</h3>
+                <ul>
+                    <li><a href="#">Headphones</a></li>
+                    <li><a href="#">Laptops</a></li>
+                    <li><a href="#">Phones</a></li>
+                    <li><a href="#">Smart Watches</a></li>
+                    <li><a href="#">Speakers</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Download the app here</h3>
+                <div class="app-buttons">
+                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store">
+                    <img src="Google.png" alt="Google Play">
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© Copyright 2000-2024 Gumtree.com Limited. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="project.js"></script>
+    <script src="property.js"></script>
+</body>
+</html>
